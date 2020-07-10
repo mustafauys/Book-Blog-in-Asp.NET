@@ -27,7 +27,7 @@
 
 <-----Kullanmanız Gereken Bilgiler----->
 
-14-Üye Girişi yaparken İD= mustafa Şifre= mustafa olarak giriş yapınız. Sebebi ise Kayıt olduğunuz zaman veri tabanına geleni sistemin görmemesidir.
+14-Üye Girişi yaparken İD= mustafa Şifre= mustafa olarak giriş yapınız.
 
 <---- Kullanılan Diller ---->
 
