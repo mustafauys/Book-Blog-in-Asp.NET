@@ -1,37 +1,34 @@
                          
 <---- Gerekli Programlar ----->
 
-1- Visual Studio 2017 veya daha üst versiyonu.
-2- Sql server 2012 veya daha üst versiyonu.
-3-Sql server managment  studio 2012 veya daha üst versiyonu.
+1- Visual Studio 2017 veya daha Ã¼st versiyonu.
+2- Sql server 2012 veya daha Ã¼st versiyonu.
+3-Sql server managment  studio 2012 veya daha Ã¼st versiyonu.
 
 
-<----- SQL' De Açma ------>
+<----- SQL' De AÃ§ma ------>
 
-4-Bilgisayarımız da kurulu olan Microsoft Sql Server'ın dosyalarına giriyoruz. Şu adımları takip ediyoruz;
+4-BilgisayarÄ±mÄ±z da kurulu olan Microsoft Sql Server'Ä±n dosyalarÄ±na giriyoruz. Åu adÄ±mlarÄ± takip ediyoruz;
 5-MSSQL.SQLEXPRESS isimli dosyaya giriyoruz.
-6-Orada olan Backup dosyasına KitapBlog.bak adlı dosyayı kopyalıyoruz.
-7-Sql Server Managment  studio 2012 veya daha üst versiyonunu açıyoruz.
-8-Sol taraftaki Object Explorer penceresinde Database üzerinde sağ tıklıyoruz ve Restore Database’ i seçiyoruz.
-9-Açılan pencerede Device seçeneğine tıklıyor ve açılan pencereden Add diyerek istediğimiz bak dosyasını seçiyoruz.
-10-Hemen ardından altındaki Database kısmından açmış olduğumuz .bak dosyasının yani veritabanımızın adını seçiyoruz.
- En son olarak aşağıdan kırmızı işaratli alanda Restore’ nin altında kalan yerdeki kutucuğa tıklayarak Ok diyoruz.
+6-Orada olan Backup dosyasÄ±na KitapBlog.bak adlÄ± dosyayÄ± kopyalÄ±yoruz.
+7-Sql Server Managment  studio 2012 veya daha Ã¼st versiyonunu aÃ§Ä±yoruz.
+8-Sol taraftaki Object Explorer penceresinde Database Ã¼zerinde saÄŸ tÄ±klÄ±yoruz ve Restore Databaseâ€™ i seÃ§iyoruz.
+9-AÃ§Ä±lan pencerede Device seÃ§eneÄŸine tÄ±klÄ±yor ve aÃ§Ä±lan pencereden Add diyerek istediÄŸimiz bak dosyasÄ±nÄ± seÃ§iyoruz.
+10-Hemen ardÄ±ndan altÄ±ndaki Database kÄ±smÄ±ndan aÃ§mÄ±ÅŸ olduÄŸumuz .bak dosyasÄ±nÄ±n yani veritabanÄ±mÄ±zÄ±n adÄ±nÄ± seÃ§iyoruz.
+ En son olarak aÅŸaÄŸÄ±dan kÄ±rmÄ±zÄ± iÅŸaratli alanda Restoreâ€™ nin altÄ±nda kalan yerdeki kutucuÄŸa tÄ±klayarak Ok diyoruz.
 
-<----- Visual Studio'da Açma ----->
+<----- Visual Studio'da AÃ§ma ----->
 
-11-Visual Studio'yu açıp sol üst taraftan "File" 'e tıklıyoruz.
-12-File sekmesinden "Open" Seçeneğini seçip kendi " Website" 'mizi açıyoruz.
-13-Sağ Tarafta olan Solution Explorer adlı sekmeden "Anasayfa.aspx" çalıştırdıktan sonra site packages kendiliğinden yükleyecektir.
-14-Yükledikten sonra Anasayfa.aspx açılacaktır ve site kullanıma hazırdır.
+11-Visual Studio'yu aÃ§Ä±p sol Ã¼st taraftan "File" 'e tÄ±klÄ±yoruz.
+12-File sekmesinden "Open" SeÃ§eneÄŸini seÃ§ip kendi " Website" 'mizi aÃ§Ä±yoruz.
+13-SaÄŸ Tarafta olan Solution Explorer adlÄ± sekmeden "Anasayfa.aspx" Ã§alÄ±ÅŸtÄ±rdÄ±ktan sonra site packages kendiliÄŸinden yÃ¼kleyecektir.
+14-YÃ¼kledikten sonra Anasayfa.aspx aÃ§Ä±lacaktÄ±r ve site kullanÄ±ma hazÄ±rdÄ±r.
 
 
-<-----Kullanmanız Gereken Bilgiler----->
+<-----KullanmanÄ±z Gereken Bilgiler----->
 
-14-Üye Girişi yaparken İD= mustafa Şifre= mustafa olarak giriş yapınız. Sebebi ise Kayıt olduğunuz zaman veri tabanına geleni sitemin görmemesidir.
-15-Visual Studio'nun kendi otomatik yüklediği 64 MB boyutundaki dosyayı silmeden gönderdim.
-Silip Gönderdiğimde site çalıştırıldığında otomatik yüklendiği için boşuna zaman kaybı olmasın diye silmedim.
-Sitemin Normal boyutu 24 MB 'dir.
+14-Ãœye GiriÅŸi yaparken Ä°D= mustafa Åifre= mustafa olarak giriÅŸ yapÄ±nÄ±z. Sebebi ise KayÄ±t olduÄŸunuz zaman veri tabanÄ±na geleni sistemin gÃ¶rmemesidir.
 
-<---- Kullanılan Diller ---->
+<---- KullanÄ±lan Diller ---->
 
 Html, Css, JavaScript, Asp.NET
