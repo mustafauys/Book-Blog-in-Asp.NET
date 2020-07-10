@@ -1,0 +1,28 @@
+<--- TASARIM ÝÇÝN KULLANILAN DÝLLER --->
+
+HTML, CSS, JAVASCRÝPT, Asp.NET
+
+Görseller internet üzerinden alýnmýþtýr.
+
+<---- VERÝ TABANI BAÐLANTISI ÝÇÝN ---->
+
+SQL Server Management 2012 ve Microsoft Visual Studio 2017 Kullanýlmýþtýr.
+
+--------------------------------------------------------------------------------------------
+
+<---- SAYFANIN AMACI ---->
+
+Kitap okurlara hitap eden bir website amaçlanmýþtýr.
+
+Siteye girebilmeleri için önce üye olmalarý gerekmektedir.
+
+Üye olduktan sonra iletiþim kýsmýndan admine kendi görüþlerini bildirebilir.
+
+Daha sonra kitaplar hakkýnda inceleme sahibi olabilir.
+
+Kitap önerileri alabilir rahatça detaylý.
+
+Kitap alýntýlarýna kolayca ulaþabilirler.
+
+Genel anlamda kitap okurlarýna sevebileceði bir web platformu düþünülmüþtür. Websitemiz güncel tutulacaktýr.
+

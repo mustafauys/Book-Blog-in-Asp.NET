@@ -1,0 +1,19 @@
+﻿body {
+    background: #ccc;
+}
+
+.formclass {
+    padding: 20px;
+    margin: 0px auto;
+    background: #fff;
+    width: 200px;
+}
+
+.input {
+    padding: 2px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}

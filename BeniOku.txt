@@ -1,0 +1,37 @@
+                         
+<---- Gerekli Programlar ----->
+
+1- Visual Studio 2017 veya daha üst versiyonu.
+2- Sql server 2012 veya daha üst versiyonu.
+3-Sql server managment  studio 2012 veya daha üst versiyonu.
+
+
+<----- SQL' De Açma ------>
+
+4-Bilgisayarýmýz da kurulu olan Microsoft Sql Server'ýn dosyalarýna giriyoruz. Þu adýmlarý takip ediyoruz;
+5-MSSQL.SQLEXPRESS isimli dosyaya giriyoruz.
+6-Orada olan Backup dosyasýna KitapBlog.bak adlý dosyayý kopyalýyoruz.
+7-Sql Server Managment  studio 2012 veya daha üst versiyonunu açýyoruz.
+8-Sol taraftaki Object Explorer penceresinde Database üzerinde sað týklýyoruz ve Restore Database’ i seçiyoruz.
+9-Açýlan pencerede Device seçeneðine týklýyor ve açýlan pencereden Add diyerek istediðimiz bak dosyasýný seçiyoruz.
+10-Hemen ardýndan altýndaki Database kýsmýndan açmýþ olduðumuz .bak dosyasýnýn yani veritabanýmýzýn adýný seçiyoruz.
+ En son olarak aþaðýdan kýrmýzý iþaratli alanda Restore’ nin altýnda kalan yerdeki kutucuða týklayarak Ok diyoruz.
+
+<----- Visual Studio'da Açma ----->
+
+11-Visual Studio'yu açýp sol üst taraftan "File" 'e týklýyoruz.
+12-File sekmesinden "Open" Seçeneðini seçip kendi " Website" 'mizi açýyoruz.
+13-Sað Tarafta olan Solution Explorer adlý sekmeden "Anasayfa.aspx" çalýþtýrdýktan sonra site packages kendiliðinden yükleyecektir.
+14-Yükledikten sonra Anasayfa.aspx açýlacaktýr ve site kullanýma hazýrdýr.
+
+
+<-----Kullanmanýz Gereken Bilgiler----->
+
+14-Üye Giriþi yaparken ÝD= mustafa Þifre= mustafa olarak giriþ yapýnýz. Sebebi ise Kayýt olduðunuz zaman veri tabanýna geleni sitemin görmemesidir.
+15-Visual Studio'nun kendi otomatik yüklediði 64 MB boyutundaki dosyayý silmeden gönderdim.
+Silip Gönderdiðimde site çalýþtýrýldýðýnda otomatik yüklendiði için boþuna zaman kaybý olmasýn diye silmedim.
+Sitemin Normal boyutu 24 MB 'dir.
+
+<---- Kullanýlan Diller ---->
+
+Html, Css, JavaScript, Asp.NET

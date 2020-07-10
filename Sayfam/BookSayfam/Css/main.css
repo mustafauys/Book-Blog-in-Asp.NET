@@ -1,0 +1,747 @@
+/* GENEL AYARLAR */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../Fonts/Raleway-Regular');   
+}
+
+body {
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px / 28px;
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.basliksize {
+    font-size: 52px;
+}
+
+.sectionHeader {
+    background: #550D16;
+    border-bottom: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #500D16;
+    transition: all .5s ease;
+}
+
+.sectionArea {
+    padding: 80px 0px;
+    
+}
+
+/* KUŞ BAKIŞI */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.featuresBody .container, .engineBody .container {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 33.33%;
+}
+
+.engineBody .container {
+    justify-content: space-between;
+}
+
+.col2 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 20px;
+}
+
+
+/* ANASAYFA */
+
+
+
+header .logo {
+    margin-right: auto;
+}
+
+
+header .logo img {
+    display: block;
+    height: 70px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #500D16;
+    color: #fff;
+}
+
+#mainSlider {
+    height: 500px;
+    background: url('../Resimler/anasayfa.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.slider {
+    width: 100%;
+}
+
+#mainCaption {
+    height: 500px;
+    background: rgba(0,0,0, .5);
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+}
+
+.featuresTop {
+    text-align: center;
+}
+
+.item {
+    padding: 10px 20px;
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+
+.item .itemText {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #500D16;
+}
+
+.item:hover .zoom img {
+    transform: scale(1.25);
+}
+
+.item:hover h3 {
+    color: #fff;
+}
+
+.item:hover .itemText {
+    background: #500D16;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.btnDetails {
+    color: #500D16;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #500D16;
+    transition: all .5s ease;
+}
+
+.item:hover .btnDetails {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.itemText p {
+    margin: 15px 0px;
+}
+
+#parallax {
+background: linear-gradient(
+                rgba(0,0,0, .7),
+                rgba(0,0,0, .7)
+                ),
+                url('../Resimler/parallax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#parallax p {
+    color: #fff;
+}
+
+.engineTop {
+    text-align: center;
+}
+
+.engineContainer {
+    position: relative;
+    width: 100%;
+}
+
+.imageOver {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.engineOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(80,13,22, .7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.engineContainer:hover .engineOverlay {
+    width: 100%;
+}
+
+.engineText {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.engineOverlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgba(80,13,22, .7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.engineContainer:hover .engineOverlay2 {
+    width: 100%;
+    left: 0;
+}
+
+footer {
+    background: #500D16;
+    text-align: center;
+}
+
+.footerItem {
+    padding: 20px;
+}
+
+.footerItem img {
+    height: 50px;
+    opacity: .5;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+
+footer .fa {
+    font-size: 30px;
+    color: #95A5A6;
+    line-height: 50px;
+    transition: .3 ease;
+}
+
+footer .fa:hover {
+    color: #fff;
+}
+
+footer p {
+    color: #95A5A6;
+    line-height: 20px;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #95A5A6;
+    letter-spacing: 2px;
+    transition: .3 ease;
+}
+
+.footerLinks a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.socialLinks li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #95A5A6;
+    letter-spacing: 2px;
+    transition: .3 ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* ALINTILAR SETTING */
+
+#alintiSlider {
+    height: 250px;
+    background: url('../Resimler/slider.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#alintiCaption {
+    height: 250px;
+    background: rgba(0,0,0, .4);
+}
+
+#inspect {
+    background-color: #F5F5F5;
+}
+
+.inspectTop {
+    text-align: center;
+}
+
+.inspectBody .col2 {
+    display: flex;
+}
+
+.inspectImage {
+    width: 40%;
+}
+
+.inspectImage img {
+    width: 100%;
+    height: auto;
+}
+
+.inspectText {
+    width: 60%;
+    padding-left: 10px;
+}
+
+.date {
+    color: #333;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #500D16;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inspectText a {
+    float: right;
+    text-decoration: none;
+    color: #500D16;
+}
+
+.inspectText a:hover {
+    text-decoration: underline;
+}
+
+.projectXTop {
+    text-align: center;
+}
+
+.text2 {
+    margin-bottom: 10px;
+}
+
+#projectX .containerFluid {
+    height: 500px;
+    background: url('../Resimler/projectx.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.captionPX {
+    display: flex;
+    background: rgba(0,0,0, .6);
+    width: 100%;
+    height: 500px;
+}
+
+.projectXInfo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: 5%;
+    padding-right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.projectXTitle {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.projectXBTN {
+    background-color: #500D16;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+.projectXBTN:hover {
+    background-color: #fff;
+    color: #500D16;
+}
+
+.projectXText {
+    color: #fff;
+}
+
+.projectXHighlight {
+    display: inline-block;
+    background-color: #500D16;
+    padding: 30px;
+}
+
+.containerFluid .col2 {
+    padding: 0px;
+}
+
+.projectXDetail li {
+    color: #fff;
+}
+
+.text3 {
+    margin-top: 10px;
+}
+
+/* TÜRLER SETTING */
+
+#turlerSlider {
+    height: 250px;
+    background: url('../Resimler/turler.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#turlerCaption {
+    height: 250px;
+    background: rgba(0,0,0, .4);
+}
+
+#ourHistory {
+    background-color: #F5F5F5;
+}
+
+.ourHistoryTop {
+    text-align: center;
+}
+
+.ourHistoryBody .containerFluid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ourHistoryBody .col2 {
+    display: flex;
+}
+
+.ourHistoryDate {
+    flex: 1;
+    text-align: center;
+    background-color: #500D16;
+    color: #fff;
+}
+
+.ourHistoryDate p {
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ourHistoryImage {
+    flex: 2;
+}
+
+.ourHistoryImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.ourHistoryText {
+    flex: 3;
+    margin-left: 10px;
+}
+
+.ourHistoryText p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teamTop {
+    text-align: center;
+}
+
+.teamBody .containerFluid {
+    display: flex;
+    width: 100%;
+}
+
+.teamMember {
+    position: relative;
+    width: 100%;
+}
+
+.teamMemberImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.teamMemberOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: #500D16;
+    transition: .5s ease;
+}
+
+.teamMember:hover .teamMemberOverlay {
+    opacity: 0;
+}
+
+.teamMember:hover .teamMemberInfo {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teamTitle {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teamMemberInfo {
+    color: #fff;
+    background-color: rgba(80,13,22, .7);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .5s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.memberSocialLinks {
+    text-align: center;
+}
+
+.memberSocialLinks li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.memberSocialLinks .fa {
+    color: #fff;
+}
+
+.text4{
+    margin-bottom: 10px;
+}
+
+/* İNCELEMELER SETTINGS */
+
+#incelemeSlider {
+    height: 250px;
+    background: url('../Resimler/alinti.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#incelemeCaption {
+    height: 250px;
+    background: rgba(0,0,0, .4);
+}
+
+#gallery {
+    background-color: #F5F5F5;
+}
+
+.galleryTop {
+    text-align: center;
+}
+
+.gallerySlider {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallerySliderItem {
+    width: 300%;
+    position: relative;
+    left: 0;
+    animation: slideAnimation 30s infinite;
+}
+
+.gallerySliderItem img {
+    width: 33.33%;
+    float: left;
+    height: auto;
+}
+
+@keyframes slideAnimation {
+    0% { left: 0; }
+    25% { left: -100%; }
+    50% { left: -200%; }
+    75% { left: -100%; }
+    100% { left: 0; }
+}
+
+/* FORM SETTINGS */
+
+.contactTop {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contactForm {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.formItem {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formShape {
+    color: #fff;
+    float: left;
+    background: #500D16;
+    padding: 8px;
+    width: 8%;
+    text-align: center;
+}
+
+.formField {
+    color: #fff;
+    background: #500D16;
+    border: none;
+    padding: 15.5px;
+    width: 92%;
+    display: block;
+    font-size: 14px;
+}
+
+.formBtn {
+    display: block;
+    border: none;
+    background-color: #500D16;
+    color: #fff;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formBtn:hover {
+    background: #841916;
+}
+
+
+
+/* OKUMA SETTİNGS*/
+
+.okuma {
+    height: auto;
+    width: 100%;
+}
+
+.yazi1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    letter-spacing: 1px;
+}
+
+.yazi2 {
+    text-align: center;
+    border: 1px solid;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
