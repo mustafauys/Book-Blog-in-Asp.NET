@@ -57,6 +57,8 @@
                 İki hafta boyunca kitap okumak, yürüyüşe çıkmak, hayal kurmak, rahatsız edilmeden uzun uzun okumak, iki hafta boyunca telefonsuz ve radyosuz yaşamak, konuşmak zorunda olmamak, bir anlamda rahatsız edilmeden kendim olmak istiyordum.-----
 
                 Size güvenebilirim değil mi?-----
+                
+                "Bir nebat gibi hafif varlıklarını neredeyse hissetmediğiniz iki yaşlı İngiliz hanımefendi vardı."-----
 
                 İnsana mutluluk kadar sağlık katan bir şey yoktur ve en büyük mutluluk da başka bir insanı mutlu etmektir.-----
 
