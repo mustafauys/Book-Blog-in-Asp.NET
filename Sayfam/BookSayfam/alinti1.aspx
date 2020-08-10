@@ -55,6 +55,8 @@
             <h2 class="yazi2"><b>OLASILIKSIZ ALINTILAR</b></h2>
             <p class="yazi1">
                 "Geleceği tahmin etmek imkansızdır. Ama şimdiki zamanı çok iyi bilirsen geleceği kontrol edebilirsin."----
+                
+                İşte hayatın en güzel tarafı da buydu; her şey olabilirdi, her ne kadar olasılıksız olursa olsun olabilirdi, olasılık dışı olan bir olay mutlaka olurdu.-------
 
                 Aslında, eğer bir şeyi yapabileceğini düşünürsen, bu mümkün olmasa bile yapabildiğini görürsün.Eğer yapamayacağını düşünürsen, o zaman çoğunlukla yapamazsın, çünkü yapmayı denemezsin bile.----
 
