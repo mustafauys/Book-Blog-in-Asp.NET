@@ -1,15 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="kitap1.aspx.cs" Inherits="kitap1" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Kitap</title>
-    <meta charset="utf-8">
-        <meta name="description" content="BookStore">
-        <meta name="author" content="Mustafa Uysal">
-        <meta name="keywords" content="Book">
-        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
     
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="Css/main.css" rel="stylesheet" />
