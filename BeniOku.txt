@@ -28,7 +28,3 @@
 <-----Kullanmanız Gereken Bilgiler----->
 
 14-Üye Girişi yaparken İD= mustafa Şifre= mustafa olarak giriş yapınız.
-
-<---- Kullanılan Diller ---->
-
-Html, Css, JavaScript, Asp.NET
