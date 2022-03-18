@@ -1,11 +1,4 @@
-                         
-<---- Gerekli Programlar ----->
-
-1- Visual Studio 2017 veya daha üst versiyonu.
-2- Sql server 2012 veya daha üst versiyonu.
-3-Sql server managment  studio 2012 veya daha üst versiyonu.
-
-
+                 
 <----- SQL' De Açma ------>
 
 4-Bilgisayarımız da kurulu olan Microsoft Sql Server'ın dosyalarına giriyoruz. Şu adımları takip ediyoruz;
